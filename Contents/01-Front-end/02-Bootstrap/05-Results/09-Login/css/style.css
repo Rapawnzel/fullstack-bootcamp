@@ -1,0 +1,8 @@
+@import url("components/form.css");
+
+body {
+    font-family: Open-sans, sans-serif;
+    margin-top: 50px;
+    font-size:14px;
+    font-weight: bold;
+}

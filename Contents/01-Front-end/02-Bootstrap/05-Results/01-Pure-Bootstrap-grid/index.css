@@ -1,0 +1,20 @@
+.box--emoji{
+    background-color: pink;
+    border:1px solid;
+    border-color: palevioletred;
+    font-size: 100px;
+    text-align: center;
+    color:white;
+}
+
+.box--text{
+    background-color:white;
+    font-size: 30px;
+    color: pink;
+    text-align: center;
+}
+
+.content--text{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
