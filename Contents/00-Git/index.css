@@ -1,3 +1,12 @@
+.red-to-green{
+    margin: 0 auto;
+    text-align: center;
+    
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    -webkit-animation:colorchange 5s infinite alternate;
+} 
 
 @-webkit-keyframes colorchange {
   0% {
@@ -9,5 +18,4 @@
     
     color: green;
   }
-  
 }
