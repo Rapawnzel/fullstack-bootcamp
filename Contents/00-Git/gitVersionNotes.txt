@@ -1,0 +1,2 @@
+ejercicios bootstrap:
+    v1.7: Pushed exercice 7 + gitVersionNotes.txt
