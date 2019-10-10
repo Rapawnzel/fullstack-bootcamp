@@ -1,7 +1,7 @@
 let country = prompt (`País de origen?`);
 let countryarray;
 
-countryarray= {
+countryarray =[{
     "name":"Spain",
     "topLevelDomain":[".es"],
     "alpha2Code":"ES",
@@ -37,12 +37,12 @@ countryarray= {
     "regionalBlocs":[{"acronym":"EU","name":"European Union",
     "otherAcronyms":[],
     "otherNames":[]}],
-    "cioc":"ESP"};
+    "cioc":"ESP"}];
 
-if (country===`Spain`){
-    document.write (`Calling Code is ${countryarray.callingCodes}<br>`);
-    document.write (`Region is ${countryarray.region}<br>`);
-    document.write (`Population is ${countryarray.population}<br>`);
+if (country === `Spain`){
+    document.write (`Calling Code is ${countryarray[0]["callingCodes"]}<br>`);
+    document.write (`Region is ${countryarray[0]["region"]}<br>`);
+    document.write (`Population is ${countryarray[0]["population"]}<br>`);
 }
 else {
          document.write (`dass not Spain :c`);
