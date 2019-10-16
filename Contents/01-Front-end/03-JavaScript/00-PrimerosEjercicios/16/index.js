@@ -1,23 +1,35 @@
 var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-let aux = [];
 
-for (i = 0; i < arr1.length; i++){
-    let flag = false;
-    let j = 0;
-    while( flag == false && j < aux.length ){
-        if (arr1[i] == aux[j]){
-            aux[j+1]++;
-            let flag = true;
-        }
-        else{
-            aux.push(arr[1]);
-            aux.push("1");
-            j++;
-        }
+let obj = {};
+
+let most;
+let least;
+let freq = 0;
+
+for (let element of arr1) {
+    if(obj[element] === undefined){
+        obj[element] = 1;
+    }
+    else{
+        obj[element] = obj[element] + 1;
     }
 }
 
-document.write(aux);
+for (let item in obj){
+    if (obj[item] > freq){
+        freq = obj[item];
+        most = {};
+        most[item] = obj[item];
+    }
+}
+
+for (let item in obj){
+    if (obj[item] < freq){
+        freq = obj[item];
+        least = {};
+        least[item] = obj[item];
+    }
+}
 
 /*
 
